@@ -19,6 +19,12 @@ p {
   text-align: center;
 }
 
+.image-wrapper {
+  background-color: #FFF;
+  padding: 0.5rem;
+  border-radius: 0px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
