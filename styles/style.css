@@ -150,4 +150,14 @@ footer {
   margin-top: 1rem;
 }
 
+.column {
+  float: left;
+}
 
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
