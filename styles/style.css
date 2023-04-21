@@ -167,3 +167,10 @@ footer {
 .right {
   width: 75%;
 }
+
+.menu {
+  height: 550px;
+  margin: 20px;
+  border: 2px solid;
+  background-color: #96968f93;
+}
