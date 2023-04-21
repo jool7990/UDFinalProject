@@ -26,7 +26,7 @@
     if ("performance" in window === false) {
       window.performance = {};
     }
-    window.performance.mark = performance.mark || noop;
+    window.performance.mark = perfhormance.mark || noop;
     window.performance.measure = performance.measure || noop;
     if ("now" in window.performance === false) {
       var nowOffset = Date.now();
