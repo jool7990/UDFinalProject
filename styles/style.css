@@ -8,8 +8,9 @@ body {
 
 h1 {
   font-size: 4rem;
-  color: #fff;
+  color: black;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-family: myFirstFont;
 }
 
 footer-section.p {
@@ -52,6 +53,17 @@ ul.navbar li {
   margin: 0 1rem;
 }
 
+ul.navbar a{
+  color: black !important;
+  font-family: mySecondFont !important;
+  font-size: 15px;
+}
+
+@font-face {
+  font-family: mySecondFont;
+  src: url(../font/03805817-4611-4dbc-8c65-0f73031c3973.ttf);
+}
+
 ul.navbar a {
   text-decoration: none;
   font-size: 1.2rem;
@@ -83,9 +95,34 @@ ul.navbar a:hover {
   gap: 1rem;
 }
 
+.bottom-section h2 {
+  font-family: myFirstFont;
+  font-size: 24px;
+  color:#292929;
+  text-align: center;
+}
+
+.bottom-section h3 {
+  font-family: myFirstFont;
+  font-size: 18px;
+  color:#373B4D;
+  text-align: center;
+}
+
+.bottom-section h4 {
+  font-family: myFirstFont;
+  font-size: 10px;
+  color: red;
+  text-align: center;
+}
+
 .bottom-section input {
   font-size: 1.2rem;
   padding: 0.5rem;
+}
+
+.bottom-section input::placeholder {
+  color: black;
 }
 
 .button-grid {
@@ -97,6 +134,16 @@ ul.navbar a:hover {
   margin-top: 1rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+.button-grid a{
+  width: 80%;
+  border-radius: 50px;
+  height: 45%;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  font-family: mySecondFont;
+  font-size: 14px;
 }
 
 .grid-btn {
@@ -146,10 +193,12 @@ footer {
 
 .footer-section h4 {
   margin-bottom: 0.5rem;
+  font-family: myThirdFont;
 }
 
 .footer-section p {
   text-align: center;
+  font-family: myThirdFont;
 }
 
 .footer-copyright {
@@ -163,6 +212,12 @@ footer {
 .left {
   width: 25%;
 }
+
+@font-face {
+  font-family: myThirdFont;
+  src: url(../font/VuJ2dNDF2Yv9qppOePKYRP12ZjtYlUndpA.ttf);
+}
+
 
 .right {
   width: 75%;
